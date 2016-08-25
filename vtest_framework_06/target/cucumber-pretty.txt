@@ -1,0 +1,60 @@
+Feature: App modules and tiles
+
+  Scenario Outline: Verify hover mouse pointer on module                                                             [90m# App_modules_and_tiles.feature:3[0m
+    [36mGiven [0m[36mFor AM05 navigate to application "<url>"[0m
+    [36mWhen [0m[36mFor AM05 user login using username as "<username>" and password as "<password>"[0m
+    [36mThen [0m[36mFor AM05 login should be successful[0m
+    [36mThen [0m[36mFor AM05 Hover mouse pointer on Training module[0m
+    [36mAnd [0m[36mFor AM05 Verify that on up slider, it should display training module description and should zoom module icon[0m
+
+    Examples: 
+
+  Scenario Outline: Verify hover mouse pointer on module                                                               [90m# App_modules_and_tiles.feature:12[0m
+    [32mGiven [0m[32mFor AM05 navigate to application "[0m[32m[1mhttps://onparagyte-a07071eeabb94b.sharepoint.com/sites/intranet/Apps/p10/[0m[32m"[0m [90m# AM_05.for_AM05_navigate_to_application(String)[0m
+    [32mWhen [0m[32mFor AM05 user login using username as "[0m[32m[1mvjain@paragyte.com[0m[32m" and password as "[0m[32m[1mMatrix@123[0m[32m"[0m                       [90m# AM_05.for_AM05_user_login_using_username_as_and_password_as(String,String)[0m
+    [32mThen [0m[32mFor AM05 login should be successful[0m                                                                           [90m# AM_05.for_AM05_login_should_be_successful()[0m
+    [32mThen [0m[32mFor AM05 Hover mouse pointer on Training module[0m                                                               [90m# AM_05.for_AM05_hover_mouse_pointer_on_Training_module()[0m
+    [31mAnd [0m[31mFor AM05 Verify that on up slider, it should display training module description and should zoom module icon[0m   [90m# AM_05.for_AM05_verify_that_on_up_slider_it_should_display_training_module_description_and_should_zoom_module_icon()[0m
+      [31mjava.lang.AssertionError: Images are not same expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:496)
+      	at org.testng.Assert.assertTrue(Assert.java:42)
+      	at stepDefinition.AM_05.for_AM05_verify_that_on_up_slider_it_should_display_training_module_description_and_should_zoom_module_icon(AM_05.java:98)
+      	at ✽.And For AM05 Verify that on up slider, it should display training module description and should zoom module icon(App_modules_and_tiles.feature:8)
+      [0m
+
+  Scenario Outline: Verify remove hover mouse pointer on module                                                                            [90m# App_modules_and_tiles.feature:14[0m
+    [36mGiven [0m[36mFor AM_06 navigate to application "<url>"[0m
+    [36mWhen [0m[36mFor AM_06 user login using username as "<username>" and password as "<password>"[0m
+    [36mThen [0m[36mFor AM_06 login should be successful[0m
+    [36mThen [0m[36mFor AM_06 Hover mouse pointer on Training module[0m
+    [36mThen [0m[36mFor AM_06 Remove mouse pointer from Training module[0m
+    [36mAnd [0m[36mFor AM_06 Verify that remove mouse hover should hide module slider with its description and icon should show in its previous size.[0m
+
+    Examples: 
+
+  Scenario Outline: Verify remove hover mouse pointer on module                                                                            [90m# App_modules_and_tiles.feature:24[0m
+    [32mGiven [0m[32mFor AM_06 navigate to application "[0m[32m[1mhttps://onparagyte-a07071eeabb94b.sharepoint.com/sites/intranet/Apps/p10/[0m[32m"[0m                    [90m# AM_06.for_AM_06_navigate_to_application(String)[0m
+    [32mWhen [0m[32mFor AM_06 user login using username as "[0m[32m[1mvjain@paragyte.com[0m[32m" and password as "[0m[32m[1mMatrix@123[0m[32m"[0m                                          [90m# AM_06.for_AM_06_user_login_using_username_as_and_password_as(String,String)[0m
+    [32mThen [0m[32mFor AM_06 login should be successful[0m                                                                                              [90m# AM_06.for_AM_06_login_should_be_successful()[0m
+    [32mThen [0m[32mFor AM_06 Hover mouse pointer on Training module[0m                                                                                  [90m# AM_06.for_AM_06_hover_mouse_pointer_on_Training_module()[0m
+    [32mThen [0m[32mFor AM_06 Remove mouse pointer from Training module[0m                                                                               [90m# AM_06.for_AM_06_remove_mouse_pointer_from_Training_module()[0m
+    [32mAnd [0m[32mFor AM_06 Verify that remove mouse hover should hide module slider with its description and icon should show in its previous size.[0m [90m# AM_06.for_AM_06_verify_that_remove_mouse_hover_should_hide_module_slider_with_its_description_and_icon_should_show_in_its_previous_size()[0m
+
+  Scenario Outline: Verify click inside the module border then mouse click should work properly [90m# App_modules_and_tiles.feature:26[0m
+    [36mGiven [0m[36mFor AM_07 navigate to application "<url>"[0m
+    [36mWhen [0m[36mFor AM_07 user login using username as "<username>" and password as "<password>"[0m
+    [36mThen [0m[36mFor AM_07 login should be successful[0m
+    [36mThen [0m[36mFor AM_07 Click on Cutomize module[0m
+    [36mThen [0m[36mFor AM_07 Click on peopleSure[0m
+    [36mAnd [0m[36mFor AM_07 Verify that after click it should go inside of that module[0m
+
+    Examples: 
+
+  Scenario Outline: Verify click inside the module border then mouse click should work properly                         [90m# App_modules_and_tiles.feature:36[0m
+    [32mGiven [0m[32mFor AM_07 navigate to application "[0m[32m[1mhttps://onparagyte-a07071eeabb94b.sharepoint.com/sites/intranet/Apps/p10/[0m[32m"[0m [90m# AM_07.for_AM_07_navigate_to_application(String)[0m
+    [32mWhen [0m[32mFor AM_07 user login using username as "[0m[32m[1mvjain@paragyte.com[0m[32m" and password as "[0m[32m[1mMatrix@123[0m[32m"[0m                       [90m# AM_07.for_AM_07_user_login_using_username_as_and_password_as(String,String)[0m
+    [32mThen [0m[32mFor AM_07 login should be successful[0m                                                                           [90m# AM_07.for_AM_07_login_should_be_successful()[0m
+    [32mThen [0m[32mFor AM_07 Click on Cutomize module[0m                                                                             [90m# AM_07.for_AM_07_Click_on_Cutomize_module()[0m
+    [32mThen [0m[32mFor AM_07 Click on peopleSure[0m                                                                                  [90m# AM_07.for_AM_07_Click_on_peopleSure()[0m
+    [32mAnd [0m[32mFor AM_07 Verify that after click it should go inside of that module[0m                                            [90m# AM_07.for_AM_07_Verify_that_after_click_it_should_go_inside_of_that_module()[0m

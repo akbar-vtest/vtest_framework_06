@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="316.830096">
+<testcase classname="App modules and tiles" name="Verify hover mouse pointer on module" time="94.016049">
+<failure message="java.lang.AssertionError: Images are not same expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:496)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at stepDefinition.AM_05.for_AM05_verify_that_on_up_slider_it_should_display_training_module_description_and_should_zoom_module_icon(AM_05.java:98)&#13;&#10;&#9;at ✽.And For AM05 Verify that on up slider, it should display training module description and should zoom module icon(App_modules_and_tiles.feature:8)&#13;&#10;"><![CDATA[Given For AM05 navigate to application "https://onparagyte-a07071eeabb94b.sharepoint.com/sites/intranet/Apps/p10/".passed
+When For AM05 user login using username as "vjain@paragyte.com" and password as "Matrix@123".passed
+Then For AM05 login should be successful....................................passed
+Then For AM05 Hover mouse pointer on Training module........................passed
+And For AM05 Verify that on up slider, it should display training module description and should zoom module icon.failed
+
+StackTrace:
+java.lang.AssertionError: Images are not same expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at stepDefinition.AM_05.for_AM05_verify_that_on_up_slider_it_should_display_training_module_description_and_should_zoom_module_icon(AM_05.java:98)
+	at ✽.And For AM05 Verify that on up slider, it should display training module description and should zoom module icon(App_modules_and_tiles.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="App modules and tiles" name="Verify remove hover mouse pointer on module" time="113.223678">
+<system-out><![CDATA[Given For AM_06 navigate to application "https://onparagyte-a07071eeabb94b.sharepoint.com/sites/intranet/Apps/p10/".passed
+When For AM_06 user login using username as "vjain@paragyte.com" and password as "Matrix@123".passed
+Then For AM_06 login should be successful...................................passed
+Then For AM_06 Hover mouse pointer on Training module.......................passed
+Then For AM_06 Remove mouse pointer from Training module....................passed
+And For AM_06 Verify that remove mouse hover should hide module slider with its description and icon should show in its previous size..passed
+]]></system-out>
+</testcase>
+<testcase classname="App modules and tiles" name="Verify click inside the module border then mouse click should work properly" time="109.590369">
+<system-out><![CDATA[Given For AM_07 navigate to application "https://onparagyte-a07071eeabb94b.sharepoint.com/sites/intranet/Apps/p10/".passed
+When For AM_07 user login using username as "vjain@paragyte.com" and password as "Matrix@123".passed
+Then For AM_07 login should be successful...................................passed
+Then For AM_07 Click on Cutomize module.....................................passed
+Then For AM_07 Click on peopleSure..........................................passed
+And For AM_07 Verify that after click it should go inside of that module....passed
+]]></system-out>
+</testcase>
+</testsuite>

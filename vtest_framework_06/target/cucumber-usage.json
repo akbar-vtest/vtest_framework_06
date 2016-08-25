@@ -1,0 +1,290 @@
+[
+  {
+    "source": "^For AM05 login should be successful$",
+    "steps": [
+      {
+        "name": "For AM05 login should be successful",
+        "aggregatedDurations": {
+          "average": 0.000240981,
+          "median": 0.000240981
+        },
+        "durations": [
+          {
+            "duration": 0.000240981,
+            "location": "App_modules_and_tiles.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_06 user login using username as \"(.*?)\" and password as \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "For AM_06 user login using username as \"vjain@paragyte.com\" and password as \"Matrix@123\"",
+        "aggregatedDurations": {
+          "average": 70.069119933,
+          "median": 70.069119933
+        },
+        "durations": [
+          {
+            "duration": 70.069119933,
+            "location": "App_modules_and_tiles.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM05 navigate to application \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "For AM05 navigate to application \"https://onparagyte-a07071eeabb94b.sharepoint.com/sites/intranet/Apps/p10/\"",
+        "aggregatedDurations": {
+          "average": 15.877842194,
+          "median": 15.877842194
+        },
+        "durations": [
+          {
+            "duration": 15.877842194,
+            "location": "App_modules_and_tiles.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_06 login should be successful$",
+    "steps": [
+      {
+        "name": "For AM_06 login should be successful",
+        "aggregatedDurations": {
+          "average": 0.000227844,
+          "median": 0.000227844
+        },
+        "durations": [
+          {
+            "duration": 0.000227844,
+            "location": "App_modules_and_tiles.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_06 navigate to application \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "For AM_06 navigate to application \"https://onparagyte-a07071eeabb94b.sharepoint.com/sites/intranet/Apps/p10/\"",
+        "aggregatedDurations": {
+          "average": 23.928141019,
+          "median": 23.928141019
+        },
+        "durations": [
+          {
+            "duration": 23.928141019,
+            "location": "App_modules_and_tiles.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_07 user login using username as \"(.*?)\" and password as \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "For AM_07 user login using username as \"vjain@paragyte.com\" and password as \"Matrix@123\"",
+        "aggregatedDurations": {
+          "average": 80.147711178,
+          "median": 80.147711178
+        },
+        "durations": [
+          {
+            "duration": 80.147711178,
+            "location": "App_modules_and_tiles.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_07 navigate to application \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "For AM_07 navigate to application \"https://onparagyte-a07071eeabb94b.sharepoint.com/sites/intranet/Apps/p10/\"",
+        "aggregatedDurations": {
+          "average": 18.800019459,
+          "median": 18.800019459
+        },
+        "durations": [
+          {
+            "duration": 18.800019459,
+            "location": "App_modules_and_tiles.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_06 Hover mouse pointer on Training module$",
+    "steps": [
+      {
+        "name": "For AM_06 Hover mouse pointer on Training module",
+        "aggregatedDurations": {
+          "average": 6.089967412,
+          "median": 6.089967412
+        },
+        "durations": [
+          {
+            "duration": 6.089967412,
+            "location": "App_modules_and_tiles.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_07 Verify that after click it should go inside of that module$",
+    "steps": [
+      {
+        "name": "For AM_07 Verify that after click it should go inside of that module",
+        "aggregatedDurations": {
+          "average": 0.091579559,
+          "median": 0.091579559
+        },
+        "durations": [
+          {
+            "duration": 0.091579559,
+            "location": "App_modules_and_tiles.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM05 Hover mouse pointer on Training module$",
+    "steps": [
+      {
+        "name": "For AM05 Hover mouse pointer on Training module",
+        "aggregatedDurations": {
+          "average": 6.495785921,
+          "median": 6.495785921
+        },
+        "durations": [
+          {
+            "duration": 6.495785921,
+            "location": "App_modules_and_tiles.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM05 user login using username as \"(.*?)\" and password as \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "For AM05 user login using username as \"vjain@paragyte.com\" and password as \"Matrix@123\"",
+        "aggregatedDurations": {
+          "average": 70.52001698,
+          "median": 70.52001698
+        },
+        "durations": [
+          {
+            "duration": 70.52001698,
+            "location": "App_modules_and_tiles.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_06 Verify that remove mouse hover should hide module slider with its description and icon should show in its previous size\\.$",
+    "steps": [
+      {
+        "name": "For AM_06 Verify that remove mouse hover should hide module slider with its description and icon should show in its previous size.",
+        "aggregatedDurations": {
+          "average": 4.899376899,
+          "median": 4.899376899
+        },
+        "durations": [
+          {
+            "duration": 4.899376899,
+            "location": "App_modules_and_tiles.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_07 login should be successful$",
+    "steps": [
+      {
+        "name": "For AM_07 login should be successful",
+        "aggregatedDurations": {
+          "average": 0.00020937,
+          "median": 0.00020937
+        },
+        "durations": [
+          {
+            "duration": 0.00020937,
+            "location": "App_modules_and_tiles.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_07 Click on peopleSure$",
+    "steps": [
+      {
+        "name": "For AM_07 Click on peopleSure",
+        "aggregatedDurations": {
+          "average": 3.145924966,
+          "median": 3.145924966
+        },
+        "durations": [
+          {
+            "duration": 3.145924966,
+            "location": "App_modules_and_tiles.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_07 Click on Cutomize module$",
+    "steps": [
+      {
+        "name": "For AM_07 Click on Cutomize module",
+        "aggregatedDurations": {
+          "average": 7.404924376,
+          "median": 7.404924376
+        },
+        "durations": [
+          {
+            "duration": 7.404924376,
+            "location": "App_modules_and_tiles.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^For AM_06 Remove mouse pointer from Training module$",
+    "steps": [
+      {
+        "name": "For AM_06 Remove mouse pointer from Training module",
+        "aggregatedDurations": {
+          "average": 8.236844806,
+          "median": 8.236844806
+        },
+        "durations": [
+          {
+            "duration": 8.236844806,
+            "location": "App_modules_and_tiles.feature:19"
+          }
+        ]
+      }
+    ]
+  }
+]
